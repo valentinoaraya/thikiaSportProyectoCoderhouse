@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h5{
+  color: black;
+}
+
+.tituloNavbar{
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", cursive;
+  color: #f4cb00;
+  opacity: 0%;
+  transition: all 1.5s;
+}
+
+span{
+  font-weight: bold;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+header{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding: 0 2rem;
+  transition: 1s;
+}
+
+header nav {
+  opacity: 100%;
+}
+header nav div a img {
+  width: 3rem;
+  height: 3rem;
+}
+
+header nav div a:hover{
+  transform: scale(1.3);
+  transition: all 0.3s ease-in-out;
+}
+
+header nav div button span {
+  background-color: #f4cb00;
+  border-radius: 0.2rem;
+}
+header nav div div ul li a p {
+  color: #f4cb00;
+}
+
+header.abajo{
+  background-color: black;
+  z-index: 1;
+}
+
+header.abajo .tituloNavbar{
+  opacity: 100%;
+}
+
+.navbar{
+  width: 100%;
+}
+
+.mainIndex .nombre {
+  width: 98.9vw;
+  height: 77vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Bebas Neue", cursive;
+  background-image: url(../imagenes/fondo8.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.moverNombre{
+  text-align: center;
+  
+}
+
+.mainIndex .nombre img {
+  width: 5rem;
+  height: 5rem;
+}
+.mainIndex .nombre h1 {
+  font-size: 80px;
+  margin: 0;
+}
+.mainIndex .nombre h2 {
+  font-size: 40px;
+}
+.mainIndex .bienvenida {
+  padding: 2rem;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+.mainIndex .bienvenida h2 {
+  margin: 0;
+}
+.mainIndex .bienvenida h2 span {
+  color: #f4cb00;
+}
+.mainIndex .bienvenida h3 {
+  margin-bottom: 2rem;
+}
+
+.mainIndex .suplementos {
+  padding: 2rem;
+}
+.mainIndex .suplementos div h2 {
+  color: #f4cb00;
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+  font-family: "Bebas Neue", cursive;
+}
+.mainIndex .suplementos div p {
+  font-size: x-large;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+.mainIndex .suplementos div p span {
+  color: #f4cb00;
+}
+.mainIndex .suplementos .imgProteina {
+  display: flex;
+  justify-content: center;
+}
+.mainIndex .suplementos .imgProteina img {
+  width: 20rem;
+  height: 20rem;
+}
+.mainIndex .suplementos a {
+  color: #f4cb00;
+}
+.mainIndex .suplementos a p {
+  font-family: "Bebas Neue", cursive;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  text-align: end;
+  font-size: large;
+}
+.card{
+  border: 3px solid #f4cb00;
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.divProductos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.titleBienvenida{
+  color: #f4cb00;
+  margin-bottom: 1.5rem;
+}
+
+.contenedorFormulario{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  background-color: #f4cb00;
+  margin: 3rem;
+  padding: 1.5rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+}
+
+.enviarBoton{
+  width: 5rem;
+  text-align: center;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  background-color: #f4cb00;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.enviarBoton:hover{
+  background-color: white;
+  color: black;
+  transition: all 0.3s;
+}
+
+.divFormulario{
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 80%;
+  align-self: center;
+}
+
+.divFormulario label{
+  font-size: x-large;
+  font-family: "Bebas Neue", cursive;
+}
+
+.estiloBoton{
+  border: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  background-color: #f4cb00;
+  padding: 0.2rem;
+  width: 100%;
+  align-self: center;
+}
+
+.estiloBoton:hover{
+  background-color: white;
+  color: #f4cb00;
+  transition: all 0.3s;
+}
+
+.btnEnviar{
+  background-color: white;
+  width: 5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem ;
+}
+
+.sectionCarrito{
+  background-color: #f4cb00;
+  padding: 1.5rem;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionCarrito h2{
+  font-weight: bold;
+  margin-bottom: 2rem;
+  align-self: center;
+}
+
+.divCarrito{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+table{
+  align-self: center;
+  width: 70%;
+  margin-bottom: 2rem;
+  background-color: white;
+}
+
+th{
+  border: 3px solid black;
+  padding: 1rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+td{
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+#total{
+  font-size: x-large;
+  align-self: center;
+}
+
+.btnComprar{
+  margin: 1rem;
+  background-color: white;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+
+.btnComprar:hover{
+  border: 1px solid black;
+  transition: all 0.3s;
+}
+
+.divBotones{
+  align-self: center;
+}
+
+.contenedorImg{
+  text-align: center;
+}
+
+.imgPapelera{
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+.imgPapelera:hover{
+  width: 1.1rem;
+  transform: rotate(360deg);
+  transition: all 0.3s;
+}
+
+.error{
+  margin: 6rem;
+  color:white;
+  background-color: red;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- FAVICON -->
+
+    <link rel="shortcut icon" href="./imagenes/logoThikia.png">
+
+    <!-- BOOTSTRAP -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- JAVASCRIPT -->
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script defer src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="js/dom.js"></script>
+    <script defer src="js/app.js"></script>
+    <script defer src="js/storage.js"></script>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- TITLE -->
+
+    <title>Thikia Sport</title>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./imagenes/logoThikia.png" alt="Logo Thikia"></a>
+        <h1 class="tituloNavbar">THIKIA SPORT</h1>
+        <a class="imgCarrito" href="./secciones/carrito.html"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#f4cb00" class="bi bi-cart-fill" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        </svg></a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="mainIndex">
+
+    
+    <div class="nombre">
+      <div class="moverNombre">
+        <img src="./imagenes/logoThikia.png" alt="Logo Thikia">
+        <h1>THIKIA</h1>
+        <h2>SPORT</h2>
+      </div>
+    </div>
+
+    <div class="bienvenida">
+      <h1 id="tituloBienvenida" class="titleBienvenida">BIENVENIDO A THIKIA</h1>
+      <h2 id="subtituloPreguntas">Queremos hacerte unas preguntas para registrarte en nuestra página.</h2>
+    </div>
+
+
+    <div class="contenedorFormulario">
+      <form id="form" class="formulario">
+        <div class="divFormulario">
+          <label for="nombre">¿Cómo te llamas?</label>
+          <input type="text" id="nombre" placeholder="Nombre">
+        </div>
+        <div class="divFormulario">
+          <label for="apellido">¿Cuál es tu apellido?</label>
+          <input type="text" id="apellido" placeholder="Apellido">
+        </div>
+        <div class="divFormulario">
+          <label for="edad">¿Cuántos años tienes?</label>
+          <input type="text" id="edad" placeholder="Edad">
+        </div>
+        <div class="divFormulario">
+          <label for="email">Porfavor, coloca tu email:</label>
+          <input type="email" id="email" placeholder="Email">
+        </div>
+      </form>
+      <button class="enviarBoton">Enviar</button>
+    </div>
+
+
+    <section class="suplementos">
+      <div>
+        <h2>PROTEÍNAS</h2>
+      </div>
+      <div id="divProteinas" class="divProductos">
+        
+      </div>
+
+      <div>
+        <h2>AMINOÁCIDOS</h2>
+      </div>
+      <div id="divAminoacidos" class="divProductos">
+          
+      </div>
+
+      <div>
+        <h2>SHAKERS</h2>
+      </div>
+      <div id="divShakers" class="divProductos">
+        
+      </div>
+      
+    </section>
+  </main>
+</body>
+</html>
